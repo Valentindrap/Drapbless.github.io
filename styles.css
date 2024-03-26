@@ -6,10 +6,13 @@ body {
     background-repeat: repeat;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
+    min-width: 300px;
 }
 
 
 .header {
+    min-width: 300px;
     background-color: #2a3380;
     color: #fff;
     padding: 0;
@@ -18,18 +21,22 @@ body {
     margin-left: 20px; /* Margen a la izquierda */
     margin-right: 20px; /* Margen a la derecha */
     border-radius: 15px; /* Borde redondeado */
+    flex-wrap: wrap;
 }
 
 .header-title {
+    min-width: 300px;
     margin: 0;
     font-size: 24px;
 }
 
 .main {
+    min-width: 300px;
     padding: 20px;
 }
 
 .productos {
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +96,7 @@ body {
     padding: 20px;
     margin: 0 auto; /* Centrar horizontalmente */
     border-radius: 15px;
+    flex-wrap: wrap;
 }
 
 
@@ -222,5 +230,8 @@ body {
 
 
 .logo{
-    width: 650px;
+    width: 550px;
+    min-width: 300px;
+    max-width: 100%; /* Establecer el ancho máximo del logo al 100% para que se ajuste al contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
 }
